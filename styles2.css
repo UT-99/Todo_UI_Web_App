@@ -31,7 +31,7 @@
 
 }
 .container-first-items{
-    height: 350px;
+    height: 280px;
     width: 350px;
     border-radius: 12px;
     margin: 30px;       
@@ -48,7 +48,7 @@
 }
 .container-two-items
 {
-    height: 350px;
+    height: 280px;
     width: 350px;
     margin: 30px;       
     background-color: aliceblue;
@@ -64,9 +64,13 @@
 .checkbox-class{
     height: 34px;
     width: 34px;
-    margin-left: 16px;
+    margin-left: 20px;
 }
 .striked-text{
     text-decoration: line-through;
 }
 
+.cards-headings{
+    padding-left: 20px;
+    color: rgb(56, 152, 152);
+}
