@@ -1,72 +1,93 @@
 #spanId{
-    color: blue;
+    color: rgb(37, 177, 215);
 }
-#divId{
-    background: linear-gradient(to bottom, lightgray, white); 
+#first-heading{
+    padding-left: 120px;
+}
+
+#OuterMost-div{
+    font-family: sans-serif;
+    z-index: 0;
+}
+#inner-div-after-heading{
+    background-color: rgb(189, 189, 189);
+}
+#plus_symbol{
+    font-size: 50px;
+    color: aqua;    
+    padding-left: 1050px;
+    display: inline;
+}
+#add-new-task{ 
+    font-size: 15px;
     
 }
 
-#myFirstHeading
-{
-    text-align: end;
-    margin-right: 21%;
-}
-#nestedDiv{
-    margin-left: 13%;
-    margin-right: 13%;
+#cotainer-first{
     display: flex;
-}
-.FirstDivItems{
-    
-    /* width: 25%;
-    height: 230px; */
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: white;
-    margin: 3px;
-    margin-bottom: 5px;
-    /* padding: 4px; */
-    display: inline-block;
-    
-}
-.SecondDivItems{
-    /* width: 25%;
-    height: 230px; */
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: white;
-    margin: 3px;
-    /* padding: 4px; */
-    display: inline-block;
-
-}
-input.inputContainer {
-    width: 25px;
-    height: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.FirstDivItems:hover{
-    border: 2px groove black;
- 
-}
-
-.SecondDivItems:hover{
-    border: 2px groove black;
-}
-.Margins-Left{
-    margin-left: 5%;
-}
-.Margins-Right{
-    margin-right: 5%;
-    /* margin-top: 5%; */
+    background-color: rgb(189, 189, 189);
+    justify-content: center;
+    flex-wrap: nowrap;
    
+
 }
-.myDivItemsHeading{
-    color:blue
-}
-.padding-left{
-    padding-left: 15px;
+.container-first-items{
+    height: 280px;
+    width: 350px;
+    border-radius: 12px;
+    margin: 30px;       
+    background-color: aliceblue;
 }
 
+
+#cotainer-two{
+    display: flex;
+    background-color: rgb(189, 189, 189);
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    
+}
+.container-two-items
+{
+    height: 280px;
+    width: 350px;
+    margin: 30px;       
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.container-first-items:hover{
+    box-shadow: 1px 2px 6px rgb(57, 56, 56), -1px 2px 6px rgb(57, 56, 56), 0 -1px 6px rgb(57, 56, 56);
+}
+.container-two-items:hover{
+    box-shadow: 1px 2px 6px rgb(57, 56, 56), -1px 2px 6px rgb(57, 56, 56), 0 -1px 6px rgb(57, 56, 56);
+}
+.checkbox-class{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+.striked-text{
+    text-decoration: line-through;
+}
+
+.cards-headings{
+    padding-left: 25px;
+    color: rgb(56, 152, 152);
+}
+
+#TripToParisAnchorTag{
+    text-decoration: none;
+    
+}
+
+#centeredDivSecondPage{
+    z-index: 2;
+    height: 400px;
+    max-height: 400px;
+    width: 400px;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid red;
+
+}
