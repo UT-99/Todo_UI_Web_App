@@ -8,17 +8,18 @@
 
 #myFirstHeading
 {
-    text-align: right;
+    text-align: end;
     margin-right: 21%;
 }
 #nestedDiv{
     margin-left: 13%;
     margin-right: 13%;
+    display: flex;
 }
 .FirstDivItems{
     
-    width: 25%;
-    height: 230px;
+    /* width: 25%;
+    height: 230px; */
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
@@ -29,8 +30,8 @@
     
 }
 .SecondDivItems{
-    width: 25%;
-    height: 230px;
+    /* width: 25%;
+    height: 230px; */
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
@@ -68,36 +69,4 @@ input.inputContainer {
 .padding-left{
     padding-left: 15px;
 }
-
-
-.div {
-    margin: 2%;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    box-shadow: inset 0 0 12px lightblue;
-   }
-.div::before {
-    content: "";
-    position: absolute;
-    width: 8px;
-    top: 50%;
-    height: 50%;
-    border-radius: 2px;
-    background-color: rgb(255,0,0);
-    transform: translateX(12px) rotate(-45deg);
-    transform-origin: left bottom;
-    z-index: +1;
-   }
-.div::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 8px;
-    width: 100%;
-    border-radius: 2px;
-    background-color: rgb(255,0,0);
-    transform: translateX(12px) rotate(-45deg);
-    transform-origin: left bottom;
-   }
 
