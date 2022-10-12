@@ -6,94 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>    
-    <div id="OuterMost-div">
+    <div class="toBeBlurred">
+        <div id="OuterMost-div">
 
-        <h1 id="first-heading">Tasks <span id="spanId">List</span></h1>
-        <div id="inner-div-after-heading">
-            <br>
-            <div style="display: flex;">
-                <a href="index2.html" style="text-decoration: none;color:black">
-                    <i class="fa-solid fa-circle-plus" id="plus_symbol"></i><span id="add-new-task" style="padding-bottom:4px;margin-left: 15px; font-size: 28px;font-weight: bold;display: inline-block;">Add New Task</span>
-                </a>
-            </div>
-            <br>
-
-            <div id="cotainer-first">
-                <a href="secondPage.html" style="text-decoration: none;">
-                    <div class="container-first-items" >
+            <h1 id="first-heading">Tasks <span id="spanId">List</span></h1>
+            <div id="inner-div-after-heading">
+                <br>
+                <div style="display: flex;">
+                    <a href="secondPage.html" style="text-decoration: none;">
+                        <i class="fa-solid fa-circle-plus" id="plus_symbol"></i><span id="add-new-task" style="padding-bottom:4px;margin-left: 15px; font-size: 28px;font-weight: bold;display: inline-block;position: absolute;top: 86px;">Add New Task</span>
+                    </a>
+                </div>
+                <br>
+    
+                <div id="cotainer-first">
+                    <a href="secondPage.html" style="text-decoration: none;">
+                        <div class="container-first-items" >
+                            <br>
+                            <h3 class="cards-headings" style="text-decoration: none;">Trip to Paris</h3>
+                            <hr>                    
+                            <input type="checkbox"   class ="checkbox-class"checked  >
+                            <label for="VisitChurch" class="striked-text " style="text-decoration: line-through;color: black;">Visit Church</label>
+                            <br>
+                            <br>
+                            <input type="checkbox"  class ="checkbox-class " >
+                            <label for="Shopping" style="text-decoration: none;color: black;">Shopping</label>
+                            
+                            
+                        </div>
+                    </a>
+                    <div class="container-first-items">
                         <br>
-                        <h3 class="cards-headings" style="text-decoration: none;">Trip to Paris</h3>
+                        <h3 class="cards-headings">My To Do List</h3>
                         <hr>                    
                         <input type="checkbox"   class ="checkbox-class"checked  >
-                        <label for="VisitChurch" class="striked-text " style="text-decoration: line-through;color: black;">Visit Church</label>
+                        <label for="VisitChurch" class="striked-text ">Visit Supermarket</label>
                         <br>
                         <br>
                         <input type="checkbox"  class ="checkbox-class " >
-                        <label for="Shopping" style="text-decoration: none;color: black;">Shopping</label>
-                        
-                        
+                        <label for="Shopping" >Buy Vagetables/label>
                     </div>
-                </a>
-                <div class="container-first-items">
-                    <br>
-                    <h3 class="cards-headings">My To Do List</h3>
-                    <hr>                    
-                    <input type="checkbox"   class ="checkbox-class"checked  >
-                    <label for="VisitChurch" class="striked-text ">Visit Supermarket</label>
-                    <br>
-                    <br>
-                    <input type="checkbox"  class ="checkbox-class " >
-                    <label for="Shopping" >Buy Vagetables/label>
+                    <div class="container-first-items">
+                        <br>
+                        <h3 class="cards-headings">Movies I will watch</h3>
+                        <hr>                    
+                        <input type="checkbox"   class ="checkbox-class"checked  >
+                        <label for="VisitChurch" class="striked-text ">Strangers Things 4</label>
+                        <br>
+                        <br>
+                        <input type="checkbox"  class ="checkbox-class " >
+                        <label for="Shopping" >Avengers Endgame</label>    
+                    </div>
+                    
+    
+                    
                 </div>
-                <div class="container-first-items">
-                    <br>
-                    <h3 class="cards-headings">Movies I will watch</h3>
-                    <hr>                    
-                    <input type="checkbox"   class ="checkbox-class"checked  >
-                    <label for="VisitChurch" class="striked-text ">Strangers Things 4</label>
-                    <br>
-                    <br>
-                    <input type="checkbox"  class ="checkbox-class " >
-                    <label for="Shopping" >Avengers Endgame</label>    
+                <div id="cotainer-two">
+                    <div class="container-two-items" style="margin-left: 144px">
+                        <br>
+                        <h3 class="cards-headings">Daily Monitoring Routine</h3>
+                        <hr>                    
+                        <input type="checkbox"   class ="checkbox-class"checked  >
+                        <label for="VisitChurch" class="striked-text ">Wake up at 6 AM</label>
+                        <br>
+                        <br>
+                        <input type="checkbox"  class ="checkbox-class " >
+                        <label for="Shopping" >Sleep At 10 PM</label>  
+                    </div>
+                    <div class="container-two-items">
+                        <br>
+                        <h3 class="cards-headings">Books To Read</h3>
+                        <hr>                    
+                        <input type="checkbox"   class ="checkbox-class"checked  >
+                        <label for="VisitChurch" class="striked-text ">Design Of Everyday</label>
+                        <br>
+                        <br>
+                        <input type="checkbox"  class ="checkbox-class " >
+                        <label for="Shopping" >Alchemist</label>      
+                    </div>
                 </div>
-                
-
-                
+        
             </div>
-            <div id="cotainer-two">
-                <div class="container-two-items" style="margin-left: 144px">
-                    <br>
-                    <h3 class="cards-headings">Daily Monitoring Routine</h3>
-                    <hr>                    
-                    <input type="checkbox"   class ="checkbox-class"checked  >
-                    <label for="VisitChurch" class="striked-text ">Wake up at 6 AM</label>
-                    <br>
-                    <br>
-                    <input type="checkbox"  class ="checkbox-class " >
-                    <label for="Shopping" >Sleep At 10 PM</label>  
-                </div>
-                <div class="container-two-items">
-                    <br>
-                    <h3 class="cards-headings">Books To Read</h3>
-                    <hr>                    
-                    <input type="checkbox"   class ="checkbox-class"checked  >
-                    <label for="VisitChurch" class="striked-text ">Design Of Everyday</label>
-                    <br>
-                    <br>
-                    <input type="checkbox"  class ="checkbox-class " >
-                    <label for="Shopping" >Alchemist</label>      
-                </div>
-            </div>
+            
     
         </div>
         
+        
+    
 
     </div>
-    
-    
 
+    <div id="div2-secondPage">
+       <h2 style="margin-left:10px ;">Add New Task <i class="fa-solid fa-square-xmark" style="float: right;padding-right: 20px;"></i>
+       </h2>
+       <hr>
+       <br>
+       <input type="text" name="" id="" placeholder="Learn C++" style="width: 85%;margin: 0 5%;">
+       <br>
+       <br>
+       <h3 style="color: white;background-color: rgb(44, 93, 192); height: 30px;width: 120px;margin-left: 320px;padding:9px 0 9px 14px;border-radius: 5px;" > + Add Task </h3>
+    </div>
 
   
 </body>
