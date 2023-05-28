@@ -159,3 +159,14 @@ body{
     left: 37%;
     right: 30%;
 }
+
+h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+#cross_Mark:hover{
+
+    color: black;
+    
+}
